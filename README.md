@@ -1,1 +1,1 @@
-# dns3num tool
+# dns3num
