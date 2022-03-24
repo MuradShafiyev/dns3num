@@ -43,12 +43,8 @@ then
 	echo -e "$green		Syntax: ./dns3num.sh -rb [Domain Name]$end"
 	echo "	-ns       Nameserver Lookup"
 	echo -e "$green		Syntax: ./dns3num.sh -ns [Domain Name]$end"
-	echo "	-cs   : Perform DNS Cache Snooping"
-	echo "		Syntax: ./dns.sh [Name Server] [Wordlist]"
-	echo "	-x    : Explain A Particular Option"
-	echo "		Syntax: ./dns.sh -x [Option_Name]"
 	echo -e "	-z    : Attempt Zone Transfer"
-	echo -e "		Syntax: ./dns.sh -z [Nameserver] [Domain Name]\n\n"
+	echo -e "		Syntax: ./dns3num.sh -z [Nameserver] [Domain Name]\n\n"
 #	echo "------------------------------------------------"
 	exit
 fi
